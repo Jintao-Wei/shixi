@@ -74,7 +74,7 @@ total_test_step = 0 # 记录测试的次数
 epoch = 10 # 训练的轮数
 
 # 添加tensorboard
-writer = SummaryWriter("../logs_train")
+writer = SummaryWriter("../day3")
 
 # 添加开始时间
 start_time = time.time()
